@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/textViewSeason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/textViewName"
+        />
+    <TextView
+        android:id="@+id/textViewEpisode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/textViewSeason"/>
+
+    <Button
+        android:id="@+id/btn_addEpisode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
